@@ -5,8 +5,8 @@ App web que resolve a indecisão de onde comer em Fortaleza (CE), para casais e 
 ## Funcionalidades (Fase 1 - MVP)
 
 - Tela inicial
-- Questionário de 5 perguntas (o que NÃO querem comer, quanto gastar por pessoa, onde estao via geolocalização ou bairro, ocasiao, tipo de lugar) com barra de progresso e voltar
-- Motor de recomendação isolado e testado (`src/lib/recomendacao.ts`: exclui categorias rejeitadas, filtra preço, pontua ocasiao/ambiente/proximidade/aberto agora, flexibiliza filtros avisando o usuário)
+- Questionário de 5 perguntas (o que NÃO querem comer, quanto gastar por pessoa, onde estão via geolocalização ou bairro, ocasião, tipo de lugar) com barra de progresso e voltar
+- Motor de recomendação isolado e testado (`src/lib/recomendacao.ts`: exclui categorias rejeitadas, filtra preço, pontua ocasião/ambiente/proximidade/aberto agora, flexibiliza filtros avisando o usuário)
 - Cards de resultado com ilustrações SVG próprias e link "Abrir no Google Maps"
 - "Decide por mim" com roleta
 - Refazer
@@ -41,13 +41,15 @@ src/
   components/   componentes reutilizáveis
   pages/        telas (Home, Quiz, Results)
   lib/          lógica pura (recomendacao.ts, testes)
-  data/         restaurantes.json, VALIDAR_RESTAURANTES.md
+  data/         restaurantes.json
   types/        tipos TypeScript
 ```
 
+Na raiz: `VALIDAR_RESTAURANTES.md` lista cada lugar para conferência manual.
+
 ## Sobre os dados dos restaurantes
 
-Aviso honesto — a lista em `src/data/restaurantes.json` foi montada a partir de guias públicos de Fortaleza. **Todos os itens estão com `verificado=false`** e as coordenadas são aproximadas (nível de rua/bairro). `VALIDAR_RESTAURANTES.md` lista cada lugar para conferência manual. Horários, preços e endereços podem ter mudado. Contribuições com correções são bem-vindas via pull request.
+Aviso honesto — a lista em `src/data/restaurantes.json` foi montada a partir de guias públicos de Fortaleza. **Todos os itens estão com `verificado=false`** e as coordenadas são aproximadas (nível de rua/bairro). `VALIDAR_RESTAURANTES.md` lista cada lugar para conferência manual. Horários, preços e endereços podem ter mudado.
 
 ## Roadmap
 
