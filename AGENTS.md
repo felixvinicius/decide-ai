@@ -17,7 +17,7 @@ Stack: React 19 + Vite + TypeScript + Tailwind CSS v4 (plugin `@tailwindcss/vite
 - `src/components/` componentes reutilizáveis · `src/pages/` telas · `src/lib/` lógica pura · `src/data/` JSON · `src/types/` tipos · `src/assets/pratos/` SVGs dos pratos.
 - A lógica de recomendação é independente de UI: `recomendar(respostas, restaurantes, agora, ...)` em `src/lib/recomendacao.ts`.
 
-## Diretrizes visuais
+## Diretrizes visuais (SUBSTITUÍDAS: leia DESIGN.md na raiz, que manda em caso de conflito)
 - Identidade quente e apetitosa, regional (sol, mar, cajueiro), nada de cara de template. Paleta com 1 cor de destaque forte (ex.: coral/caju), 1 secundária (ex.: verde-mar), neutros quentes. Defina os tokens em `@theme` no `src/index.css`.
 - Tipografia: 1 fonte de título com personalidade + 1 legível para texto (Google Fonts via `<link>` no index.html).
 - Cantos arredondados generosos, sombras suaves, ilustrações com contorno grosso e cores chapadas.
