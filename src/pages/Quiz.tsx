@@ -3,6 +3,7 @@ import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { ArrowRight, CheckCircle2, ChevronLeft, MapPin, Sparkles } from 'lucide-react'
 import { Button } from '../components/Button'
 import { Chip } from '../components/Chip'
+import { capitalizeLabel } from '../components/labels'
 import { ProgressBar } from '../components/ProgressBar'
 import { ScreenLayout } from '../components/ScreenLayout'
 import { restaurantes } from '../data'
@@ -277,7 +278,7 @@ export function Quiz({ onFinish, onBack }: QuizProps) {
                     selected={draft.excludedCategories.includes(category)}
                     onClick={() => toggleCategory(category)}
                   >
-                    {category}
+                    {capitalizeLabel(category)}
                   </Chip>
                 ))}
               </div>

@@ -6,6 +6,33 @@ import { Card } from '../components/Card'
 import { Chip } from '../components/Chip'
 import { ProgressBar } from '../components/ProgressBar'
 import { ScreenLayout } from '../components/ScreenLayout'
+import { DishIllustration } from '../components/pratos/DishIllustration'
+import { pickDish } from '../components/pratos/pickDish'
+import type { DishKind } from '../components/pratos/pickDish'
+
+interface DishExample {
+  prato: string
+  categorias: string[]
+}
+
+/** Um exemplo de prato para cada ilustração, na ordem em que o `pickDish` decide. */
+const dishExamples: Record<DishKind, DishExample> = {
+  crustaceos: { prato: 'Camarão na moranga', categorias: ['frutos do mar'] },
+  peixe: { prato: 'Peixada cearense', categorias: ['frutos do mar'] },
+  regional: { prato: 'Carne de sol com macaxeira', categorias: ['regional'] },
+  churrasco: { prato: 'Picanha na brasa', categorias: ['churrasco'] },
+  massa: { prato: 'Parmigiana de berinjela', categorias: ['italiana'] },
+  pizza: { prato: 'Pizza de calabresa', categorias: ['pizza'] },
+  sushi: { prato: 'Rodízio de sushi', categorias: ['japonesa'] },
+  hamburguer: { prato: 'Hambúrguer artesanal', categorias: ['hambúrguer'] },
+  tapioca: { prato: 'Tapioca recheada', categorias: ['regional'] },
+  doce: { prato: 'Bolo de rolo', categorias: ['doces'] },
+  cafe: { prato: 'Café coado com pão', categorias: ['café'] },
+  salada: { prato: 'Salada do mar', categorias: ['saudável'] },
+  generico: { prato: 'Prato do dia', categorias: [] },
+}
+
+const dishKinds = Object.keys(dishExamples) as DishKind[]
 
 interface Swatch {
   name: string
@@ -105,7 +132,7 @@ function Section({
   )
 }
 
-export default function StyleGuide() {
+export function StyleGuide() {
   const [selectedChips, setSelectedChips] = useState<string[]>(['Nordestina', 'Pizza'])
 
   function toggleChip(option: string) {
@@ -123,8 +150,9 @@ export default function StyleGuide() {
         </span>
         <h1 className="text-4xl text-ink">Decide Aí</h1>
         <p className="text-ink-soft">
-          As peças do visual do app: cores, letras, botões e cartões. É por aqui que a gente
-          confere se tudo combina antes de montar as telas.
+          As peças do visual do app: cores, letras, botões, cartões e as ilustrações dos pratos.
+          Abra o endereço com <span className="font-semibold text-ink">/#guia</span> para cair aqui
+          direto.
         </p>
       </header>
 
@@ -173,7 +201,7 @@ export default function StyleGuide() {
           <div className="flex flex-col gap-1">
             <p className="text-base text-ink">
               A gente monta um roteiro de acordo com a sua fome, o seu bolso e o seu humor. Fica
-              leve, é só responder quatro perguntinhas.
+              leve, é só responder cinco perguntinhas.
             </p>
             <p className="text-sm text-ink-soft">Nunito Sans · 16px · corpo do texto</p>
           </div>
@@ -294,10 +322,76 @@ export default function StyleGuide() {
             </div>
           </Card>
 
-          <Card padding="sm" className="bg-sol-100">
+          <Card padding="sm" tone="warning">
             <p className="px-1 py-1 text-sm text-ink">
               <strong className="font-semibold">Dica:</strong> cartões em creme/sol servem para
               destaques rápidos, sem competir com os botões de caju.
+            </p>
+          </Card>
+        </div>
+      </Section>
+
+      <Section
+        title="Ilustrações dos pratos"
+        description="Um desenho por tipo de prato, no mesmo estilo: contorno grosso em ink, cores chapadas da paleta e viewBox 120x120. O pickDish escolhe o desenho pelo nome do prato e, se não achar, pela categoria."
+      >
+        <div className="flex flex-col gap-4">
+          <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {dishKinds.map((kind) => {
+              const exemplo = dishExamples[kind]
+              const escolhido = pickDish(exemplo.prato, exemplo.categorias)
+              return (
+                <li key={kind}>
+                  <Card padding="sm" className="flex flex-col items-center gap-1 text-center">
+                    <DishIllustration
+                      prato={exemplo.prato}
+                      categorias={exemplo.categorias}
+                      decorative
+                      className="h-24 w-24"
+                    />
+                    <span className="font-display text-sm font-semibold text-ink">{kind}</span>
+                    <span className="text-xs text-ink-soft">{exemplo.prato}</span>
+                    {escolhido !== kind && (
+                      <span className="text-xs font-semibold text-erro-700">
+                        pickDish devolveu {escolhido}
+                      </span>
+                    )}
+                  </Card>
+                </li>
+              )
+            })}
+          </ul>
+
+          <Card className="flex flex-col gap-3">
+            <p className="text-sm text-ink-soft">
+              Mesmo desenho em 64px, 96px e 160px: precisa continuar legível de longe e de perto.
+            </p>
+            <div className="flex flex-wrap items-end gap-4">
+              <DishIllustration
+                prato="Camarão na moranga"
+                categorias={['frutos do mar']}
+                className="size-16"
+              />
+              <DishIllustration
+                prato="Camarão na moranga"
+                categorias={['frutos do mar']}
+                className="size-24"
+              />
+              <DishIllustration
+                prato="Camarão na moranga"
+                categorias={['frutos do mar']}
+                className="size-40"
+              />
+              <DishIllustration
+                prato="Picanha na brasa"
+                categorias={['churrasco']}
+                decorative
+                className="size-24"
+              />
+            </div>
+            <p className="text-sm text-ink-soft">
+              Com <code className="font-semibold text-ink">decorative</code>, a última sai sem
+              rótulo (aria-hidden) — use quando o nome do prato já aparece do lado.
             </p>
           </Card>
         </div>
@@ -310,12 +404,17 @@ export default function StyleGuide() {
             <li>• Alvos de toque com 44px ou mais e foco sempre visível pelo teclado.</li>
             <li>• Animações curtas e desligadas quando o sistema pede menos movimento.</li>
             <li>• Ícones decorativos com aria-hidden e rótulos em português.</li>
+            <li>
+              • Ilustrações de prato com role=img e aria-label “Ilustração de …”, ou aria-hidden
+              quando são só enfeite.
+            </li>
           </ul>
         </Card>
       </Section>
 
       <footer className="pb-2 text-center text-sm text-ink-soft">
-        Decide Aí · Fortaleza-CE · ilustrações e telas chegam nas próximas tarefas.
+        Decide Aí · Fortaleza-CE · telas do fluxo e ilustrações dos pratos já estão de pé; o
+        resto chega nas próximas tarefas.
       </footer>
     </ScreenLayout>
   )
