@@ -1,1 +1,132 @@
 @import "tailwindcss";
+
+/* =========================================================================
+   Decide Aí — Sistema visual
+   Paleta quente e regional: caju (coral, destaque), mar (verde-mar, secundária),
+   neutros quentes (creme/marrom), sol (apoio) e erro.
+   Os tons 600/700 garantem contraste AA com texto branco e sobre o creme.
+   ========================================================================= */
+@theme {
+  /* Tipografia: título com personalidade + texto legível (Google Fonts no index.html) */
+  --font-display: "Baloo 2", "Trebuchet MS", system-ui, sans-serif;
+  --font-sans: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Destaque: caju */
+  --color-caju-50: #fff4ef;
+  --color-caju-100: #ffe4d8;
+  --color-caju-200: #ffc7b0;
+  --color-caju-300: #ffa184;
+  --color-caju-400: #f87a52;
+  --color-caju-500: #e2542c;
+  --color-caju-600: #c43f1b;
+  --color-caju-700: #9e3115;
+  --color-caju-800: #7a2610;
+  --color-caju-900: #571a0b;
+
+  /* Secundária: mar */
+  --color-mar-50: #ecf7f4;
+  --color-mar-100: #d2ede7;
+  --color-mar-200: #a6dbd0;
+  --color-mar-300: #72c3b2;
+  --color-mar-400: #40a694;
+  --color-mar-500: #1e8a78;
+  --color-mar-600: #146b5c;
+  --color-mar-700: #0f5548;
+  --color-mar-800: #0a3f36;
+  --color-mar-900: #072b25;
+
+  /* Neutros quentes */
+  --color-cream: #fff8f0;
+  --color-sand-100: #fbf0e2;
+  --color-sand-200: #f4e5d3;
+  --color-sand-300: #e6d0b6;
+  --color-sand-400: #cba98a;
+  --color-sand-500: #a97f5f;
+  --color-ink: #2b1b12;
+  --color-ink-soft: #6b5a4e;
+
+  /* Apoio: sol (só detalhes/ilustrações, nunca texto sobre ele) */
+  --color-sol-100: #fdf1d6;
+  --color-sol-300: #f6c863;
+  --color-sol-400: #f2b33d;
+  --color-sol-500: #d9991c;
+
+  /* Erro */
+  --color-erro-100: #fbe4e1;
+  --color-erro-600: #a8241c;
+  --color-erro-700: #8a1c15;
+
+  /* Cantos arredondados generosos */
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+  --radius-4xl: 2.5rem;
+
+  /* Sombras suaves */
+  --shadow-soft: 0 2px 6px -1px rgb(43 27 18 / 0.08), 0 12px 28px -14px rgb(43 27 18 / 0.22);
+  --shadow-lift: 0 6px 14px -4px rgb(43 27 18 / 0.12), 0 20px 36px -18px rgb(43 27 18 / 0.28);
+
+  /* Animações com propósito */
+  --ease-pop: cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    min-height: 100dvh;
+    margin: 0;
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+
+  /* Foco visível em qualquer elemento interativo (AA) */
+  :focus-visible {
+    outline: 3px solid var(--color-caju-600);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-caju-200);
+    color: var(--color-caju-900);
+  }
+}
+
+/* Respiro para aparelhos com barra/entalhe (safe area) */
+@utility pt-safe {
+  padding-top: max(1.25rem, env(safe-area-inset-top));
+}
+
+@utility pb-safe {
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
