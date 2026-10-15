@@ -341,3 +341,42 @@ describe('recomendar', () => {
     expect(resultado.itens).toEqual([])
   })
 })
+
+describe('recomendar — doceiras e cafés (penalidade de lanche)', () => {
+  // A doceira fica bem mais perto, então o teste é sobre o peso e não sobre a distância.
+  const comum = () => makeRestaurant({ id: 'comum', categorias: ['regional'], ...atKm(8) })
+  const doceira = () => makeRestaurant({ id: 'doceira', categorias: ['doces'], ...atKm(1) })
+  const extra = () => makeRestaurant({ id: 'extra', categorias: ['regional'], ...atKm(12) })
+
+  it('penaliza a doceira e deixa o lugar comum na frente quando a ocasião não é rápida', () => {
+    const resultado = recomendar(
+      makeAnswers({ occasion: 'encontro' }),
+      [comum(), doceira(), extra()],
+      WED_NOON,
+    )
+    const score = (id: string) =>
+      resultado.itens.find((i) => i.restaurante.id === id)?.score ?? Number.NEGATIVE_INFINITY
+    // Sem a penalidade a doceira (mais perto) ganharia; com ela, o comum passa na frente.
+    expect(resultado.itens[0].restaurante.id).toBe('comum')
+    expect(score('comum')).toBeGreaterThan(score('doceira'))
+  })
+
+  it('não penaliza a doceira quando a ocasião é rápida', () => {
+    const resultado = recomendar(
+      makeAnswers({ occasion: 'rápido' }),
+      [comum(), doceira(), extra()],
+      WED_NOON,
+    )
+    expect(resultado.itens[0].restaurante.id).toBe('doceira')
+  })
+
+  it('não penaliza um lugar que também tem categoria de refeição', () => {
+    const misto = makeRestaurant({ id: 'misto', categorias: ['doces', 'regional'], ...atKm(1) })
+    const resultado = recomendar(
+      makeAnswers({ occasion: 'encontro' }),
+      [misto, comum(), extra()],
+      WED_NOON,
+    )
+    expect(resultado.itens[0].restaurante.id).toBe('misto')
+  })
+})

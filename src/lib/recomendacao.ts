@@ -109,7 +109,11 @@ const WEIGHTS = {
   proximidadeDesconhecida: 15,
   aberto: 15,
   fechado: -40,
+  somenteLanche: -20,
 } as const
+
+/** Places that only serve sweets/coffee are not a meal: they only lead for quick bites. */
+const SNACK_CATEGORIES = new Set(['doces', 'café'])
 
 function score(
   restaurante: Restaurant,
@@ -129,6 +133,10 @@ function score(
 
   if (abertoAgora === true) total += WEIGHTS.aberto
   else if (abertoAgora === false) total += WEIGHTS.fechado
+
+  const somenteLanche =
+    restaurante.categorias.length > 0 && restaurante.categorias.every((c) => SNACK_CATEGORIES.has(c))
+  if (somenteLanche && respostas.occasion !== 'rápido') total += WEIGHTS.somenteLanche
 
   return Math.round(total * 10) / 10
 }
