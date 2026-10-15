@@ -18,9 +18,11 @@ export interface Restaurant {
   ocasioes: Occasion[]
   ambiente: Ambience[]
   pratosSugeridos: string[]
-  /** Opening hours per weekday (0 = Sunday ... 6 = Saturday) as "HH:MM-HH:MM" ranges. */
+  /** Opening hours per weekday (0 = Sunday ... 6 = Saturday) as "HH:MM-HH:MM" ranges (end earlier than start means it closes after midnight). Missing weekday = unknown. */
   horarioFuncionamento: Partial<Record<0 | 1 | 2 | 3 | 4 | 5 | 6, string[]>>
   verificado: boolean
+  /** Data caveats for manual validation (e.g. address or dishes to confirm). */
+  observacoes?: string[]
 }
 
 export interface Coordinates {

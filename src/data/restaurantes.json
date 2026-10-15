@@ -1,0 +1,1915 @@
+[
+  {
+    "id": "brazao",
+    "nome": "Restaurante Brazão",
+    "bairro": "Praia de Iracema",
+    "endereco": "Rua João Cordeiro, 43",
+    "latitude": -3.72464,
+    "longitude": -38.51281,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Peixada cearense",
+      "Carne de sol com macaxeira"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos da culinária cearense, não confirmados com o cardápio"
+    ]
+  },
+  {
+    "id": "cantinho-do-frango",
+    "nome": "Cantinho do Frango",
+    "bairro": "Aldeota",
+    "endereco": "Rua Torres Câmara, 71",
+    "latitude": -3.7353,
+    "longitude": -38.50802,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Frango à moda cearense",
+      "Galinha caipira",
+      "Panelada"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Uma fonte cita o bairro Meireles; confirmar o bairro"
+    ]
+  },
+  {
+    "id": "tilapia-regional",
+    "nome": "Tilápia Regional",
+    "bairro": "Meireles",
+    "endereco": "Rua Frei Mansueto, 458",
+    "latitude": -3.73043,
+    "longitude": -38.48883,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Filé de tilápia com baião de dois"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Uma fonte cita o bairro Varjota; confirmar o bairro"
+    ]
+  },
+  {
+    "id": "mocinha-do-mercado",
+    "nome": "Mocinha do Mercado",
+    "bairro": "Centro",
+    "endereco": "Mercado Central de Fortaleza, Av. Alberto Nepomuceno",
+    "latitude": -3.7275,
+    "longitude": -38.5267,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "dia comum",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Buchada de bode",
+      "Carne de sol com macaxeira",
+      "Peixada cearense"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Box dentro do Mercado Central; confirmar número do box e endereço"
+    ]
+  },
+  {
+    "id": "o-parente",
+    "nome": "O Parente",
+    "bairro": "Messejana",
+    "endereco": "Mercado de Messejana",
+    "latitude": -3.8388,
+    "longitude": -38.4958,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Carne de sol",
+      "Baião de dois"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Endereço é o do mercado; pratos genéricos da culinária nordestina, não confirmados"
+    ]
+  },
+  {
+    "id": "sabor-do-mercado",
+    "nome": "Sabor do Mercado",
+    "bairro": "Messejana",
+    "endereco": "Mercado de Messejana",
+    "latitude": -3.8388,
+    "longitude": -38.4958,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "dia comum",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Carne de sol",
+      "Cuscuz nordestino"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Endereço é o do mercado; pratos genéricos, não confirmados"
+    ]
+  },
+  {
+    "id": "centro-das-tapioqueiras",
+    "nome": "Centro das Tapioqueiras",
+    "bairro": "Messejana",
+    "endereco": "Av. Washington Soares, 10425",
+    "latitude": -3.82261,
+    "longitude": -38.48133,
+    "categorias": [
+      "regional",
+      "doces"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "rápido",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Tapioca recheada",
+      "Cuscuz",
+      "Carne de sol"
+    ],
+    "horarioFuncionamento": {
+      "0": [
+        "06:30-23:00"
+      ],
+      "1": [
+        "06:30-23:00"
+      ],
+      "2": [
+        "06:30-23:00"
+      ],
+      "3": [
+        "06:30-23:00"
+      ],
+      "4": [
+        "06:30-23:00"
+      ],
+      "5": [
+        "06:30-23:00"
+      ],
+      "6": [
+        "06:30-23:00"
+      ]
+    },
+    "verificado": false
+  },
+  {
+    "id": "leao-do-sul",
+    "nome": "Leão do Sul",
+    "bairro": "Centro",
+    "endereco": "Praça do Ferreira",
+    "latitude": -3.72746,
+    "longitude": -38.52758,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pastel frito na hora",
+      "Caldo de cana"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Endereço aproximado (praça); confirmar número"
+    ]
+  },
+  {
+    "id": "regina-diogenes",
+    "nome": "Self-service Regina Diógenes",
+    "bairro": "Cocó",
+    "endereco": "Cocó (endereço a confirmar)",
+    "latitude": -3.7456,
+    "longitude": -38.4838,
+    "categorias": [
+      "regional"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Buffet self-service regional"
+    ],
+    "horarioFuncionamento": {
+      "0": [
+        "11:00-16:00"
+      ],
+      "1": [
+        "11:00-15:00"
+      ],
+      "2": [
+        "11:00-15:00"
+      ],
+      "3": [
+        "11:00-15:00"
+      ],
+      "4": [
+        "11:00-15:00"
+      ],
+      "5": [
+        "11:00-15:00"
+      ],
+      "6": [
+        "11:00-16:00"
+      ]
+    },
+    "verificado": false,
+    "observacoes": [
+      "Endereço não informado na fonte; jantar também citado, horários só de almoço"
+    ]
+  },
+  {
+    "id": "mangue-azul",
+    "nome": "Mangue Azul",
+    "bairro": "Aldeota",
+    "endereco": "Rua Professor Dias da Rocha, 987",
+    "latitude": -3.73664,
+    "longitude": -38.49204,
+    "categorias": [
+      "regional",
+      "contemporânea"
+    ],
+    "faixaPreco": 4,
+    "ocasioes": [
+      "comemoração",
+      "encontro"
+    ],
+    "ambiente": [
+      "romântico"
+    ],
+    "pratosSugeridos": [
+      "Menu degustação \"Experiência Mangue Azul\""
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "tempero-do-mangue",
+    "nome": "Tempero do Mangue",
+    "bairro": "Sabiaguaba",
+    "endereco": "Rua Valdir Bezerra, 100",
+    "latitude": -3.81934,
+    "longitude": -38.45039,
+    "categorias": [
+      "regional",
+      "frutos do mar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "ao ar livre",
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Caranguejo",
+      "Peixe frito"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos, não confirmados"
+    ]
+  },
+  {
+    "id": "quintal-da-varjota",
+    "nome": "Quintal da Varjota",
+    "bairro": "Varjota",
+    "endereco": "Av. Antônio Justa, 3525",
+    "latitude": -3.73134,
+    "longitude": -38.4834,
+    "categorias": [
+      "regional",
+      "bar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "ao ar livre",
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Petiscos regionais"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Fonte cita o bairro Meireles; pratos genéricos"
+    ]
+  },
+  {
+    "id": "la-vilani",
+    "nome": "La Vilani",
+    "bairro": "Mucuripe",
+    "endereco": "Rua Olga Barroso, 331",
+    "latitude": -3.72582,
+    "longitude": -38.48124,
+    "categorias": [
+      "frutos do mar",
+      "regional"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Peixada",
+      "Camarão",
+      "Lagosta"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos de frutos do mar, não confirmados"
+    ]
+  },
+  {
+    "id": "restaurante-mucuripe",
+    "nome": "Restaurante Mucuripe",
+    "bairro": "Mucuripe",
+    "endereco": "Av. Beira Mar, 3980",
+    "latitude": -3.72255,
+    "longitude": -38.48157,
+    "categorias": [
+      "frutos do mar"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "vista para o mar"
+    ],
+    "pratosSugeridos": [
+      "Camarão",
+      "Peixe grelhado"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos, não confirmados"
+    ]
+  },
+  {
+    "id": "terral-do-marujo",
+    "nome": "Terral do Marujo",
+    "bairro": "Mucuripe",
+    "endereco": "Av. da Abolição, 5470",
+    "latitude": -3.72478,
+    "longitude": -38.48281,
+    "categorias": [
+      "frutos do mar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Peixada",
+      "Camarão empanado",
+      "Arroz de polvo"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Bairro inferido pela fonte; confirmar"
+    ]
+  },
+  {
+    "id": "coco-bambu-beira-mar",
+    "nome": "Coco Bambu Beira Mar",
+    "bairro": "Meireles",
+    "endereco": "Av. Beira Mar, 3698",
+    "latitude": -3.72571,
+    "longitude": -38.49683,
+    "categorias": [
+      "frutos do mar",
+      "regional"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "comemoração",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual",
+      "vista para o mar"
+    ],
+    "pratosSugeridos": [
+      "Camarão Coco Bambu",
+      "Moqueca de peixe",
+      "Camarão na moranga"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Fontes divergem: também citado em Rua Canuto de Aguiar, 1317; rede com várias unidades"
+    ]
+  },
+  {
+    "id": "illa-mare",
+    "nome": "Illa Mare",
+    "bairro": "Meireles",
+    "endereco": "Av. Beira Mar, 3821",
+    "latitude": -3.72571,
+    "longitude": -38.49683,
+    "categorias": [
+      "frutos do mar",
+      "contemporânea"
+    ],
+    "faixaPreco": 4,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "vista para o mar",
+      "romântico"
+    ],
+    "pratosSugeridos": [
+      "Frutos do mar",
+      "Risoto"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos, não confirmados"
+    ]
+  },
+  {
+    "id": "camarada-camarao",
+    "nome": "Camarada Camarão",
+    "bairro": "Papicu",
+    "endereco": "Rua Desembargador Lauro Nogueira, 1500",
+    "latitude": -3.74344,
+    "longitude": -38.46799,
+    "categorias": [
+      "frutos do mar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Camarão"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Rede de restaurantes; confirmar unidade"
+    ]
+  },
+  {
+    "id": "marcao-das-ostras",
+    "nome": "Marcão das Ostras",
+    "bairro": "Joaquim Távora",
+    "endereco": "Rua Professor Carvalho, 2901",
+    "latitude": -3.75256,
+    "longitude": -38.51501,
+    "categorias": [
+      "frutos do mar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Ostras"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Bairro conforme a fonte; confirmar"
+    ]
+  },
+  {
+    "id": "chico-do-caranguejo",
+    "nome": "Chico do Caranguejo",
+    "bairro": "Praia do Futuro",
+    "endereco": "Praia do Futuro (endereço a confirmar)",
+    "latitude": -3.744,
+    "longitude": -38.465,
+    "categorias": [
+      "frutos do mar",
+      "regional"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "comemoração",
+      "dia comum"
+    ],
+    "ambiente": [
+      "ao ar livre",
+      "vista para o mar"
+    ],
+    "pratosSugeridos": [
+      "Caranguejo"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Barraca na Praia do Futuro; uma fonte cita também Av. Barão de Studart, 1071 (Aldeota)"
+    ]
+  },
+  {
+    "id": "mercado-peixes-mucuripe",
+    "nome": "Mercado dos Peixes do Mucuripe",
+    "bairro": "Mucuripe",
+    "endereco": "Av. Beira Mar, 3479",
+    "latitude": -3.72255,
+    "longitude": -38.48157,
+    "categorias": [
+      "frutos do mar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum"
+    ],
+    "ambiente": [
+      "ao ar livre",
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Peixe fresco frito",
+      "Camarão"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Compra o pescado e leva para os quiosques; pratos genéricos"
+    ]
+  },
+  {
+    "id": "moranga-bistro",
+    "nome": "Moranga Bistrô",
+    "bairro": "Praia de Iracema",
+    "endereco": "Rua Xavier de Castro, 100",
+    "latitude": -3.72141,
+    "longitude": -38.5124,
+    "categorias": [
+      "contemporânea",
+      "frutos do mar"
+    ],
+    "faixaPreco": 4,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "romântico"
+    ],
+    "pratosSugeridos": [
+      "Torre de lagostas"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "l-o-restaurante",
+    "nome": "L'ô Restaurante",
+    "bairro": "Praia de Iracema",
+    "endereco": "Av. Pessoa Anta, 217",
+    "latitude": -3.7218,
+    "longitude": -38.5107,
+    "categorias": [
+      "contemporânea",
+      "frutos do mar"
+    ],
+    "faixaPreco": 4,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "romântico"
+    ],
+    "pratosSugeridos": [
+      "Lagosta grelhada com molho de cogumelos",
+      "Risoto negro"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "assis-rei-da-picanha",
+    "nome": "Assis o Rei da Picanha",
+    "bairro": "Varjota",
+    "endereco": "Rua Ana Bilhar, 1356",
+    "latitude": -3.73153,
+    "longitude": -38.4869,
+    "categorias": [
+      "churrasco"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Picanha"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Fonte também cita frutos do mar"
+    ]
+  },
+  {
+    "id": "carneiro-do-ordones",
+    "nome": "Carneiro do Ordones",
+    "bairro": "Varjota",
+    "endereco": "Rua Frederico Borges, 368",
+    "latitude": -3.73708,
+    "longitude": -38.48908,
+    "categorias": [
+      "churrasco"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Carneiro assado"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Prato genérico; possui outra unidade em Parquelândia"
+    ]
+  },
+  {
+    "id": "gheller",
+    "nome": "Churrascaria Gheller",
+    "bairro": "Praia de Iracema",
+    "endereco": "Av. Monsenhor Tabosa, 825",
+    "latitude": -3.72458,
+    "longitude": -38.50392,
+    "categorias": [
+      "churrasco"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "comemoração",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Rodízio de carnes",
+      "Buffet de acompanhamentos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "geppos-jardins",
+    "nome": "Geppos Jardins",
+    "bairro": "Meireles",
+    "endereco": "Av. Desembargador Moreira, 1011",
+    "latitude": -3.72733,
+    "longitude": -38.4955,
+    "categorias": [
+      "italiana"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Massas",
+      "Risotos",
+      "Pizza"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos da categoria"
+    ]
+  },
+  {
+    "id": "geppos-beira-mar",
+    "nome": "Geppos Beira Mar",
+    "bairro": "Meireles",
+    "endereco": "Av. Beira Mar, 3222",
+    "latitude": -3.72571,
+    "longitude": -38.49683,
+    "categorias": [
+      "italiana"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "vista para o mar",
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Massas",
+      "Risotos",
+      "Pizza"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Uma fonte cita o bairro Praia de Iracema; pratos genéricos"
+    ]
+  },
+  {
+    "id": "cortile",
+    "nome": "Cortile Ristorante",
+    "bairro": "Meireles",
+    "endereco": "Rua Vicente Leite, 520",
+    "latitude": -3.73224,
+    "longitude": -38.49383,
+    "categorias": [
+      "italiana"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "romântico"
+    ],
+    "pratosSugeridos": [
+      "Parmigiana",
+      "Polvo",
+      "Cordeiro com massa"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Outra fonte atribui este mesmo endereço a outro restaurante; confirmar com cuidado"
+    ]
+  },
+  {
+    "id": "casa-nostra",
+    "nome": "Casa Nostra",
+    "bairro": "Dionísio Torres",
+    "endereco": "Av. Senador Virgílio Távora, 1800",
+    "latitude": -3.74777,
+    "longitude": -38.4967,
+    "categorias": [
+      "italiana"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "romântico"
+    ],
+    "pratosSugeridos": [
+      "Massas",
+      "Risotos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "vignoli",
+    "nome": "Vignoli",
+    "bairro": "Meireles",
+    "endereco": "Av. Senador Virgílio Távora, 10",
+    "latitude": -3.72886,
+    "longitude": -38.49076,
+    "categorias": [
+      "pizza",
+      "italiana"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pizza artesanal"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Número do endereço e bairro a confirmar"
+    ]
+  },
+  {
+    "id": "pizza-do-frei",
+    "nome": "Pizza do Frei",
+    "bairro": "Dionísio Torres",
+    "endereco": "Av. Pontes Vieira, 1127",
+    "latitude": -3.75088,
+    "longitude": -38.49763,
+    "categorias": [
+      "pizza"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pizza"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Unidade \"Aldeota Express\"; confirmar"
+    ]
+  },
+  {
+    "id": "amicis",
+    "nome": "Amicis Pizzaria",
+    "bairro": "Dionísio Torres",
+    "endereco": "Rua Osvaldo Cruz, 2085",
+    "latitude": -3.74481,
+    "longitude": -38.50319,
+    "categorias": [
+      "pizza"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pizza"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "pizzaria-fornalha",
+    "nome": "Pizzaria Fornalha",
+    "bairro": "Dionísio Torres",
+    "endereco": "Rua Vicente Leite, 2999",
+    "latitude": -3.75083,
+    "longitude": -38.49965,
+    "categorias": [
+      "pizza"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pizza no forno a lenha"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Prato genérico; forno a lenha não confirmado"
+    ]
+  },
+  {
+    "id": "empire-pizza",
+    "nome": "Empire Pizza & Sub's",
+    "bairro": "Dionísio Torres",
+    "endereco": "Av. Senador Virgílio Távora, 1055, Loja 10",
+    "latitude": -3.74777,
+    "longitude": -38.4967,
+    "categorias": [
+      "pizza"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pizza",
+      "Sub"
+    ],
+    "horarioFuncionamento": {
+      "0": [
+        "18:00-22:30"
+      ],
+      "1": [
+        "18:00-22:30"
+      ],
+      "2": [
+        "18:00-22:30"
+      ],
+      "3": [
+        "18:00-22:30"
+      ],
+      "4": [
+        "18:00-22:30"
+      ],
+      "5": [
+        "18:00-00:30"
+      ],
+      "6": [
+        "18:00-00:30"
+      ]
+    },
+    "verificado": false,
+    "observacoes": [
+      "Outra fonte atribui o mesmo endereço a outra pizzaria"
+    ]
+  },
+  {
+    "id": "balcone",
+    "nome": "Balcone",
+    "bairro": "Meireles",
+    "endereco": "Rua Osvaldo Cruz, 919",
+    "latitude": -3.72616,
+    "longitude": -38.49726,
+    "categorias": [
+      "contemporânea"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Saladas",
+      "Massas",
+      "Risotos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "jardim-alchymist",
+    "nome": "Jardim do Alchymist",
+    "bairro": "Aldeota",
+    "endereco": "Rua Barão de Aracati, 801",
+    "latitude": -3.73728,
+    "longitude": -38.51333,
+    "categorias": [
+      "contemporânea",
+      "italiana"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "romântico",
+      "ao ar livre"
+    ],
+    "pratosSugeridos": [
+      "Massas",
+      "Pratos brasileiros"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "hey-joe",
+    "nome": "Hey Joe Food 'n' Bar",
+    "bairro": "Aldeota",
+    "endereco": "Rua Norvinda Pires, 32",
+    "latitude": -3.73699,
+    "longitude": -38.50113,
+    "categorias": [
+      "contemporânea",
+      "bar"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Petiscos",
+      "Hambúrguer"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "fuji-sushi",
+    "nome": "Fuji Sushi Lounge",
+    "bairro": "Aldeota",
+    "endereco": "Rua Leonardo Mota, 774",
+    "latitude": -3.73734,
+    "longitude": -38.49654,
+    "categorias": [
+      "japonesa"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Sushi",
+      "Sashimi"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "kenji-sushi",
+    "nome": "Kenji Sushi Bar",
+    "bairro": "Aldeota",
+    "endereco": "Rua Frederico Borges, 220",
+    "latitude": -3.73708,
+    "longitude": -38.48908,
+    "categorias": [
+      "japonesa"
+    ],
+    "faixaPreco": 4,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "romântico"
+    ],
+    "pratosSugeridos": [
+      "Omakase"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Rua citada fica na Varjota; confirmar bairro"
+    ]
+  },
+  {
+    "id": "matsuri-sushi",
+    "nome": "Matsuri Sushi",
+    "bairro": "Aldeota",
+    "endereco": "Av. Dom Luís, 500",
+    "latitude": -3.7338,
+    "longitude": -38.49571,
+    "categorias": [
+      "japonesa"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "dia comum",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Sushi",
+      "Temaki"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "ryori",
+    "nome": "Ryori Sushi Lounge",
+    "bairro": "Meireles",
+    "endereco": "Av. Dom Luís, 1113",
+    "latitude": -3.73483,
+    "longitude": -38.49252,
+    "categorias": [
+      "japonesa"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "encontro",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Sushi",
+      "Temaki"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "conimaki",
+    "nome": "Conimaki Sushi",
+    "bairro": "Meireles",
+    "endereco": "Rua Canuto de Aguiar, 1368",
+    "latitude": -3.7311,
+    "longitude": -38.49402,
+    "categorias": [
+      "japonesa"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "dia comum",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Sushi",
+      "Temaki"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "zaiko-sushi",
+    "nome": "Zaiko Sushi",
+    "bairro": "Meireles",
+    "endereco": "Rua Ana Bilhar, 1136 A",
+    "latitude": -3.72949,
+    "longitude": -38.49567,
+    "categorias": [
+      "japonesa"
+    ],
+    "faixaPreco": 3,
+    "ocasioes": [
+      "comemoração",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Rodízio de sushi"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "vistta-rooftop",
+    "nome": "Vistta Rooftop",
+    "bairro": "Cocó",
+    "endereco": "Av. Santos Dumont, 6740, 22º andar",
+    "latitude": -3.74553,
+    "longitude": -38.46974,
+    "categorias": [
+      "japonesa",
+      "contemporânea"
+    ],
+    "faixaPreco": 4,
+    "ocasioes": [
+      "encontro",
+      "comemoração"
+    ],
+    "ambiente": [
+      "romântico",
+      "ao ar livre"
+    ],
+    "pratosSugeridos": [
+      "Culinária japonesa"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos; vista panorâmica citada"
+    ]
+  },
+  {
+    "id": "nbs-burger",
+    "nome": "NBS Burger",
+    "bairro": "Dionísio Torres",
+    "endereco": "Rua Beni Carvalho, 677",
+    "latitude": -3.74491,
+    "longitude": -38.49844,
+    "categorias": [
+      "hambúrguer",
+      "pizza"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "rápido",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Hambúrguer",
+      "Pizza"
+    ],
+    "horarioFuncionamento": {
+      "0": [
+        "00:00-24:00"
+      ],
+      "1": [
+        "00:00-24:00"
+      ],
+      "2": [
+        "00:00-24:00"
+      ],
+      "3": [
+        "00:00-24:00"
+      ],
+      "4": [
+        "00:00-24:00"
+      ],
+      "5": [
+        "00:00-24:00"
+      ],
+      "6": [
+        "00:00-24:00"
+      ]
+    },
+    "verificado": false,
+    "observacoes": [
+      "Aberto 24h segundo o site da rede"
+    ]
+  },
+  {
+    "id": "jango-burger",
+    "nome": "Jango Burger",
+    "bairro": "Aldeota",
+    "endereco": "Rua Joaquim Nabuco, 1273",
+    "latitude": -3.73924,
+    "longitude": -38.50256,
+    "categorias": [
+      "hambúrguer"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "rápido",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Hambúrguer artesanal"
+    ],
+    "horarioFuncionamento": {
+      "0": [
+        "18:00-23:00"
+      ],
+      "2": [
+        "18:00-23:00"
+      ],
+      "3": [
+        "18:00-23:00"
+      ],
+      "4": [
+        "18:00-23:00"
+      ],
+      "5": [
+        "18:00-23:00"
+      ],
+      "6": [
+        "18:00-23:00"
+      ]
+    },
+    "verificado": false
+  },
+  {
+    "id": "porpino-burger",
+    "nome": "Porpino Burger",
+    "bairro": "Meireles",
+    "endereco": "Av. Senador Virgílio Távora, 597",
+    "latitude": -3.72886,
+    "longitude": -38.49076,
+    "categorias": [
+      "hambúrguer"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "rápido",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Hambúrguer de carne grelhada com molhos da casa"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Bairro a confirmar"
+    ]
+  },
+  {
+    "id": "floresta-bar",
+    "nome": "Floresta Bar",
+    "bairro": "Aldeota",
+    "endereco": "Av. Santos Dumont, 1788",
+    "latitude": -3.73965,
+    "longitude": -38.48809,
+    "categorias": [
+      "bar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual",
+      "ao ar livre"
+    ],
+    "pratosSugeridos": [
+      "Petiscos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Outra fonte cita o bairro Varjota; pratos genéricos"
+    ]
+  },
+  {
+    "id": "pirata-bar",
+    "nome": "Pirata Bar",
+    "bairro": "Praia de Iracema",
+    "endereco": "Rua dos Tabajaras, 325",
+    "latitude": -3.7193,
+    "longitude": -38.51648,
+    "categorias": [
+      "bar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual",
+      "ao ar livre"
+    ],
+    "pratosSugeridos": [
+      "Petiscos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Famoso pelas segundas-feiras; pratos genéricos"
+    ]
+  },
+  {
+    "id": "teresa-e-jorge",
+    "nome": "Teresa e Jorge",
+    "bairro": "Praia de Iracema",
+    "endereco": "Rua João Cordeiro, 540",
+    "latitude": -3.72464,
+    "longitude": -38.51281,
+    "categorias": [
+      "bar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Petiscos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos; samba ao vivo citado"
+    ]
+  },
+  {
+    "id": "vila-camaleao",
+    "nome": "Vila Camaleão",
+    "bairro": "Meireles",
+    "endereco": "Av. Barão de Studart, 671",
+    "latitude": -3.72688,
+    "longitude": -38.50407,
+    "categorias": [
+      "bar"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "comemoração"
+    ],
+    "ambiente": [
+      "casual",
+      "ao ar livre"
+    ],
+    "pratosSugeridos": [
+      "Petiscos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Bairro a confirmar; pratos genéricos"
+    ]
+  },
+  {
+    "id": "era-uma-vez",
+    "nome": "Era Uma Vez Dessert and Cakes",
+    "bairro": "Aldeota",
+    "endereco": "Av. Senador Virgílio Távora, 1837 B",
+    "latitude": -3.73632,
+    "longitude": -38.49304,
+    "categorias": [
+      "doces",
+      "café"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "rápido",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Bolos",
+      "Sobremesas",
+      "Sopas"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "casa-paine",
+    "nome": "Casa Pâine",
+    "bairro": "Aldeota",
+    "endereco": "Av. Santos Dumont, 938",
+    "latitude": -3.73965,
+    "longitude": -38.48809,
+    "categorias": [
+      "café",
+      "doces"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "encontro",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pães artesanais",
+      "Café"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "atelier-1913",
+    "nome": "Atelier 1913",
+    "bairro": "Meireles",
+    "endereco": "Rua Antônio Augusto, 744",
+    "latitude": -3.72766,
+    "longitude": -38.5126,
+    "categorias": [
+      "café",
+      "doces"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "encontro",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Café especial",
+      "Doces autorais"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false
+  },
+  {
+    "id": "cacao",
+    "nome": "CACAO",
+    "bairro": "Meireles",
+    "endereco": "Rua José Vilar, 1520 A",
+    "latitude": -3.72995,
+    "longitude": -38.50278,
+    "categorias": [
+      "doces"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "rápido",
+      "encontro"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Chocolates e doces"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Tipo de estabelecimento a confirmar"
+    ]
+  },
+  {
+    "id": "nato-confeitaria",
+    "nome": "Nato Confeitaria Saudável",
+    "bairro": "Meireles",
+    "endereco": "Rua Tibúrcio Cavalcante, 1656",
+    "latitude": -3.72558,
+    "longitude": -38.49924,
+    "categorias": [
+      "doces",
+      "saudável"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "rápido",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Doces saudáveis"
+    ],
+    "horarioFuncionamento": {
+      "1": [
+        "08:30-18:30"
+      ],
+      "2": [
+        "08:30-18:30"
+      ],
+      "3": [
+        "08:30-18:30"
+      ],
+      "4": [
+        "08:30-18:30"
+      ],
+      "5": [
+        "08:30-18:30"
+      ],
+      "6": [
+        "08:30-18:30"
+      ]
+    },
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "lets-fit",
+    "nome": "Let's Fit",
+    "bairro": "Meireles",
+    "endereco": "Rua Edgar Damasceno, 56",
+    "latitude": -3.73043,
+    "longitude": -38.50408,
+    "categorias": [
+      "saudável"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "rápido",
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Refeições fit"
+    ],
+    "horarioFuncionamento": {
+      "1": [
+        "09:00-21:00"
+      ],
+      "2": [
+        "09:00-21:00"
+      ],
+      "3": [
+        "09:00-21:00"
+      ],
+      "4": [
+        "09:00-21:00"
+      ],
+      "5": [
+        "09:00-21:00"
+      ],
+      "6": [
+        "09:00-21:00"
+      ]
+    },
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "sabores-organicos",
+    "nome": "Sabores Orgânicos",
+    "bairro": "Meireles",
+    "endereco": "Rua Monsenhor Bruno, 1300",
+    "latitude": -3.72642,
+    "longitude": -38.50749,
+    "categorias": [
+      "saudável"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pratos orgânicos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "granoleve",
+    "nome": "GranoLeve",
+    "bairro": "Aldeota",
+    "endereco": "Rua Bárbara de Alencar, 1805 B",
+    "latitude": -3.74059,
+    "longitude": -38.50627,
+    "categorias": [
+      "saudável"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum",
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Refeições leves"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "pimenta-vegana",
+    "nome": "Pimenta Vegana",
+    "bairro": "Benfica",
+    "endereco": "Rua Confúcio Pamplona, 339",
+    "latitude": -3.7395,
+    "longitude": -38.53628,
+    "categorias": [
+      "vegetariana",
+      "saudável"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Pratos veganos"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Pratos genéricos"
+    ]
+  },
+  {
+    "id": "mandir",
+    "nome": "Mandir",
+    "bairro": "Meireles",
+    "endereco": "Rua Frei Mansueto, 1130",
+    "latitude": -3.73043,
+    "longitude": -38.48883,
+    "categorias": [
+      "vegetariana"
+    ],
+    "faixaPreco": 2,
+    "ocasioes": [
+      "dia comum"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Refeições vegetarianas"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Uma fonte associa ao Benfica; pratos genéricos"
+    ]
+  },
+  {
+    "id": "50-sabores-mucuripe",
+    "nome": "Sorveteria 50 Sabores",
+    "bairro": "Mucuripe",
+    "endereco": "Av. Beira Mar, 4050",
+    "latitude": -3.72255,
+    "longitude": -38.48157,
+    "categorias": [
+      "doces"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "rápido"
+    ],
+    "ambiente": [
+      "vista para o mar",
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Sorvete de tapioca",
+      "Sorvete de caju"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Sabores citados pela fonte como regionais; confirmar"
+    ]
+  },
+  {
+    "id": "guarana-da-gorete",
+    "nome": "Guaraná da Gorete",
+    "bairro": "Benfica",
+    "endereco": "Benfica (endereço a confirmar)",
+    "latitude": -3.7405,
+    "longitude": -38.538,
+    "categorias": [
+      "doces",
+      "café"
+    ],
+    "faixaPreco": 1,
+    "ocasioes": [
+      "rápido"
+    ],
+    "ambiente": [
+      "casual"
+    ],
+    "pratosSugeridos": [
+      "Açaí",
+      "Guaraná"
+    ],
+    "horarioFuncionamento": {},
+    "verificado": false,
+    "observacoes": [
+      "Endereço não informado na fonte"
+    ]
+  }
+]
